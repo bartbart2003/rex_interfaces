@@ -16,11 +16,11 @@ set(msg_files
   "msg/ProbeControl.msg"
   "msg/ProbeStatus.msg"
   "msg/RoverControl.msg"
-  "msg/Wheels.msg"
+  "msg/RoverStatus.msg"
+  "msg/VescMotorCommand.msg"
   "msg/VescStatus.msg"
   "msg/Wheel.msg"
-  "msg/VescMotorCommand.msg"
-  "msg/RoverStatus.msg"
+  "msg/Wheels.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
