@@ -43,6 +43,10 @@ Rex Interfaces is a ROS2 package containing custom message definitions for the R
 ### Motor Control
 - **VescMotorCommand**: Low-level motor control commands
   - Command ID and set value
+  - for best backward compatibility and including recent changes in libVescCan:
+    - set_origin_data - used only with SetOrigin command ID
+    - set_pos_speed_loop... - used only with SetPosSpeedLoop command ID
+
 - **VescStatus**: VESC motor controller status feedback
   - Motor parameters (ERPM, current, duty cycle)
   - Temperature readings
