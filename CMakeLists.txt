@@ -13,10 +13,10 @@ find_package(std_msgs REQUIRED)
 set(msg_files
   "msg/ManipulatorControl.msg"
   "msg/ManipulatorMqttMessage.msg"
-  "msg/ProbeControl.msg"
   "msg/ProbeStatus.msg"
   "msg/RoverControl.msg"
   "msg/RoverStatus.msg"
+  "msg/SamplerControl.msg"
   "msg/VescMotorCommand.msg"
   "msg/VescStatus.msg"
   "msg/Wheel.msg"
